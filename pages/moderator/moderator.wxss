@@ -1,0 +1,2 @@
+view{width:100%;height:26rem;display: flex;justify-content:center;align-items:center;}
+.item{width:20rem;height: 16rem;display:inline-block;padding-top:4rem;}

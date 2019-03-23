@@ -1,0 +1,3 @@
+<view>
+    <image src="../images/wx.jpg" mode="aspectFit" class="item"></image>
+</view>    

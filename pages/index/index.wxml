@@ -1,0 +1,6 @@
+<view class="home-cover">
+  <image src="../images/cover-img.jpg" mode="aspectFill"/>
+</view>
+<view class="home-btn" bindtap="homeTan">开始体验</view>
+
+

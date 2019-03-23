@@ -1,0 +1,6 @@
+<view class="section">
+    <text>{{ title }}</text>
+    <view class="centent">
+        {{ desc }}
+  </view>
+</view>

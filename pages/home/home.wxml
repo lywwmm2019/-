@@ -1,0 +1,25 @@
+  <view class="main">
+        <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}">
+            <swiper-item>
+            <image src="{{item}}" class="slide-image"   mode="aspectFill"/>
+            </swiper-item>
+        </block>
+        </swiper>
+
+        <view class="list">
+            <view  class="item"   wx:for="{{ listData.onlines }}" > 
+                <navigator url="../detail/detail?id={{ item.id }}"> </navigator>
+                <image src="{{ item.image }}" mode="aspectFill" class="item-img"/>
+                <view class="item-text">
+                    <text class="list-title">{{ item.title }}</text>
+                    <text class="list-type">类型-{{ item.tags[0] }}</text>
+                    <text class="list-word">{{ item.desc }}</text>
+                </view>
+             </view>
+        </view>
+    </view>
+
+
+

@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/home/home",
+    "pages/detail/detail",
+    "pages/music/music",
+    "pages/map/map",
+    "pages/moderator/moderator"
+  ],
+  "window":{
+    "navigationBarBackgroundColor":"#fff",
+    "navigationBarTextStyle":"black",
+    "navigationBarTitleText":"Q弹小丸子",
+    "backgroundColor":"#dfdfdf"
+  },
+   "tabBar": {
+    "selectedColor":"#f9ba10",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath":"pages/images/bar_1_hover.png",
+      "selectedIconPath":"pages/images/bar_1.png",
+      "text": "Home"
+    }, {
+      "pagePath": "pages/music/music",
+      "iconPath":"pages/images/bar_4_hover.png",
+      "selectedIconPath":"pages/images/bar_4.png",
+      "text": "Music"
+    },
+    {
+      "pagePath": "pages/map/map",
+      "iconPath":"pages/images/bar_3_hover.png",
+      "selectedIconPath":"pages/images/bar_3.png",
+      "text": "Map"
+    },
+     {
+      "pagePath": "pages/moderator/moderator",
+      "iconPath":"pages/images/bar_2_hover.png",
+      "selectedIconPath":"pages/images/bar_2.png",
+      "text": "Moderator"
+    }
+    ]
+  }
+
+ 
+}
+
+

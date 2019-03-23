@@ -1,0 +1,27 @@
+.home-cover{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%; 
+  overflow:hidden;
+}
+.home-cover image{
+  width:100%;
+  height:100%;
+  border:none;
+}
+.home-btn{
+  width:50%;
+  height:60px;
+  border-radius: 5px;
+  text-align: center;
+  line-height:60px;
+  background:rgba(255,255,255,0.2);
+  color:beige;
+  font-size: 30px;
+  position:absolute;
+  bottom: 150px;
+  left:25%;
+  border:1px rgba(245,245,220,0.2) solid;
+}
